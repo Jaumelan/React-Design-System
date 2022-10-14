@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Checkbox } from "@radix-ui/react-checkbox";
+import axios from "axios";
+import { Checkbox } from "../Components/Checkbox";
 import { Button } from "../Components/Button";
 import { Heading } from "../Components/Heading";
 import { TextInput } from "../Components/TextInput";
@@ -11,9 +12,13 @@ import { FormEvent } from "react";
 export function Signin() {
   const [isUserSignedIn, setIsUserSignedIn] = useState(false);
 
-  function handleSignin(event: FormEvent) {
+  async function handleSignin(event: FormEvent) {
     event.preventDefault();
 
+    await axios.post("/signin", {
+      email: "jaime@email.com",
+      password: "123456",
+    });
     setIsUserSignedIn(true);
   }
 

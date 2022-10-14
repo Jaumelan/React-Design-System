@@ -15,6 +15,9 @@ Creation of a simple site on Figma. From it we created the design system with it
 
 download the repository, install the dependencies and npm run storybook in the terminal, then in another terminal npm run test
 
+    npm run test
+
+
 
 ## Link to storybook
 
