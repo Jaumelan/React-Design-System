@@ -11,6 +11,15 @@
 
 Creation of a simple site on Figma. From it we created the design system with its tokens, and export them to react using tailwindcss as our framework for managing css. We also created all the components on Storybook.
 
-## How to run
+## How to run tests
 
-download the repository, install the dependencies and yarn start in the terminal
+download the repository, install the dependencies and npm run storybook in the terminal, then in another terminal npm run test
+
+
+## Link to storybook
+
+https://jaumelan.github.io/React-Design-System/?path=/story/components-button--default
+
+## Link to figma
+
+https://www.figma.com/file/6IhEvMpkuvIYGydHMhfHaW/Design-System-Exercise?node-id=0%3A1
