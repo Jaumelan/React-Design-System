@@ -17,12 +17,10 @@ download the repository, install the dependencies and npm run storybook in the t
 
     npm run test
 
-
-
 ## Link to storybook
 
 https://jaumelan.github.io/React-Design-System/?path=/story/components-button--default
 
 ## Link to figma
 
-https://www.figma.com/file/6IhEvMpkuvIYGydHMhfHaW/Design-System-Exercise?node-id=0%3A1
+https://www.figma.com/file/niLOKOqfKUWuTEkrCtaXG4/Design-System-Lab?node-id=0%3A1
